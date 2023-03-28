@@ -11,6 +11,7 @@ module.exports = {
     '@storybook/preset-create-react-app',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
+    '@chakra-ui/storybook-addon',
   ],
   framework: '@storybook/react',
   core: {
@@ -18,5 +19,7 @@ module.exports = {
   },
   features: {
     interactionsDebugger: true,
+    emotionAlias: false,
   },
+  
 };
